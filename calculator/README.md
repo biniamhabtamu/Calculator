@@ -1,12 +1,108 @@
-# React + Vite
+# React Calculator App
+Calculator Screenshot <!-- Add a screenshot if available -->
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A beautiful, responsive calculator built with React and Vite featuring:
 
-Currently, two official plugins are available:
+Vibrant color scheme with smooth animations
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Full calculation history display
 
-## Expanding the ESLint configuration
+Responsive design for all devices
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Interactive button effects
+
+Support for all basic operations
+
+Features
+Basic Operations: Addition, subtraction, multiplication, division
+
+Advanced Functions: Percentage, sign toggle, clear all
+
+History Tracking: View your complete calculation history
+
+Responsive Design: Works perfectly on mobile, tablet, and desktop
+
+Visual Effects:
+
+Button press animations
+
+Floating calculator effect
+
+Smooth transitions
+
+Accessible: Large touch targets for mobile users
+
+Technologies Used
+React
+
+Vite
+
+CSS3 (with animations and transitions)
+
+Flexbox/Grid layout
+
+Installation
+Clone the repository:
+
+bash
+git clone https://github.com/your-username/react-calculator.git
+Navigate to the project directory:
+
+bash
+cd react-calculator
+Install dependencies:
+
+bash
+npm install
+Start the development server:
+
+bash
+npm run dev
+Usage
+Use number buttons (0-9) to input values
+
+Press operation buttons (+, -, ×, ÷) to perform calculations
+
+View your calculation history above the display
+
+Use special functions:
+
+AC: Clear all
+
++/-: Toggle sign
+
+%: Convert to percentage
+
+.: Decimal point
+
+=: Calculate result
+
+Customization
+You can easily customize the calculator by modifying the color scheme in App.jsx:
+
+jsx
+const colors = {
+  primary: '#6c5ce7',       // Main color
+  secondary: '#a29bfe',     // Secondary color
+  accent: '#fd79a8',        // Function buttons
+  dark: '#2d3436',          // Background
+  light: '#dfe6e9',         // Text
+  numbers: '#636e72',       // Number buttons
+  operators: '#0984e3'      // Operator buttons
+};
+Responsive Design
+The calculator automatically adapts to:
+
+Desktop screens (up to 500px width)
+
+Tablets (768px breakpoint)
+
+Mobile devices (480px and 350px breakpoints)
+
+Landscape orientation on mobile devices
+
+Contributing
+Contributions are welcome! Please open an issue or submit a pull request.
+
+License
+MIT License
