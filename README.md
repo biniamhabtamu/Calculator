@@ -56,7 +56,7 @@ Install dependencies:
 # npm install
 Start the development server:
 
-bash
+
 npm run dev
 Usage
 Use number buttons (0-9) to input values
@@ -104,5 +104,5 @@ Landscape orientation on mobile devices
 Contributing
 Contributions are welcome! Please open an issue or submit a pull request.
 
-License
+# License
 MIT License
