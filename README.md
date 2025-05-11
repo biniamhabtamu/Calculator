@@ -41,19 +41,19 @@ CSS3 (with animations and transitions)
 
 Flexbox/Grid layout
 
-Installation
+# Installation
 Clone the repository:
 
-bash
+
 git clone https://github.com/your-username/react-calculator.git
 Navigate to the project directory:
 
-bash
-cd react-calculator
+
+# cd react-calculator
 Install dependencies:
 
-bash
-npm install
+
+# npm install
 Start the development server:
 
 bash
